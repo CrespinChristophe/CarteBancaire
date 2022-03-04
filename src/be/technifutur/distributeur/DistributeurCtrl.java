@@ -16,6 +16,8 @@ public class DistributeurCtrl implements StateControler{
     public void newInput(String input) {
         System.out.println(input);
         if("q".equals(input)){
+            /*state.stop();
+            state = null;*/
             finish = true;
         }
 
